@@ -10,3 +10,6 @@ function getString() {
     return "Hello World"
 } 
 
+function fff() {
+  return 'ff'
+}
