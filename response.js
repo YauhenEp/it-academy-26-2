@@ -10,3 +10,10 @@ function getString() {
     return "Hello World"
 } 
 
+function getObject() {
+    return {
+        name: "John Doe",
+        age: 30,
+        city: "New York"
+    }
+}
