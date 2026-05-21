@@ -10,6 +10,10 @@ function getString() {
     return "Hello World"
 } 
 
+function fff() {
+  return 'ff'
+}
+
 function getObject() {
     return {
         name: "John Doe",
@@ -17,3 +21,6 @@ function getObject() {
         city: "New York"
     }
 }
+
+
+
