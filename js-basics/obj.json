@@ -1,0 +1,13 @@
+{
+    "env": {
+        "prod": "url"
+    },
+    "market": {
+        "uk": "url",
+        "us": "url"
+    },
+    "numberOftest": 10,
+    "isAtomic": false,
+    "logs": [true, null, [], {}],
+    "something": null
+}
