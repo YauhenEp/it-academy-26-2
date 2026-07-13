@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "AEC",
+      "value": "AdJVEavtel5eSRii4dA1Sr2V20mlB3dTJijvv4NtjDQ8PVfcUIwhUunD-PQ",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1798305592.454391,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-BUCKET",
+      "value": "COEC",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1798305592.454771,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SOCS",
+      "value": "CAISHAgBEhJnd3NfMjAyNjA2MjQtMF9SQzEaAnBsIAEaBgiA64bSBg",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1816881594.46938,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "532=lGp6uGVta4tmAvBwUTDL1bXwVcEeL_y2ETAxVJAw7vABEx-HZHCq8LL7Rb5IfS3xMU_KMG0G0ajAc9gzuBfR0RbZW_VGu4vjoKxDL83rIUsbUNt7_Sq7n8k-3evMVs_tRP8Th7L53XTXdSiAQYw8wJpswJNgJYXxgjDqCNqnVu9webr1j8yG0YhFm6ti6GID5Usel_XS4BFXKKaOdY3fNsCV0sdfzHmgCBcbEPBukiDE7W50qJV5n7jHEJwpDl6UCRXS536u49Q18CUNKCGy-g",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1798564794.469596,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "sb_wiz.zpc.gws-wiz.",
+          "value": "{\"0\":[[\"supergirl box office\",0,[3,143,362],{\"zp\":{\"gs_ss\":\"1\"},\"zl\":8,\"zf\":33}],[\"pełnia księżyca\",0,[3,143,362],{\"zp\":{\"gs_ss\":\"1\"},\"zl\":8,\"zf\":33}],[\"sgp2\",0,[3,143,362],{\"zp\":{\"gs_ss\":\"1\"},\"zl\":8,\"zf\":33}],[\"emerytura\",0,[3,143,362],{\"zp\":{\"gs_ss\":\"1\"},\"zl\":8,\"zf\":33}],[\"pożar kamieniec ząbkowicki\",0,[3,143,362],{\"zf\":33,\"zl\":8,\"zp\":{\"gs_ss\":\"1\"}}],[\"maria żodzik\",46,[3,143,362],{\"zs\":\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFAAUAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAFBgMEBwIBAP/EADoQAAIBAgQEAgYIBQUAAAAAAAECAwQRAAUSIQYxQVETYRQicYGRoQcjQpKxwdHwMlJygvEVQ2Jjwv/EABkBAAMBAQEAAAAAAAAAAAAAAAIDBAAFAf/EACERAAIDAAICAgMAAAAAAAAAAAECAAMREiEEMiJBExQx/9oADAMBAAIRAxEAPwBirq3LqaJneRqT/qT+Jz5r+/M4Vsz4irK5DCX8GnOxRNtXt/TA6pmlqpmmqJGkkbmzHH1NGrzKHAZF9YgjmBv+WAyDyngPTHYOOBHuehJvjqRSiE89sbIXOSRlXW43GJljBGIoGRI1TmQN8eVc/o0JkNl6KCeZxtyGBsnESeIE1qrEcr74uQ5cJto50LdARa5wOyynaSN6nTIV5mWUnSPd1xaqBVzQomWxVLL9pnjCo3mB/jE5uO9R60AjuRTI8L6WW9xcEcjiOznkMUOJMwaA0wF0lp1C6wedu46jD3RcMyTy0itKirURGXbey2Hs7jD0YsJO6BTkRIpkdgo2J6YJU8TeE5VCS9kF/P8Ax88Ls8MjSBodd4l1Er0wZghqJKigy+WZnJN9zsCxsPhvj2Sfk7l2HLauoqPAjRgxQPYi1lJte5xNQcPz1dQYnYIqyaXJN7WIv+J+Bwx0Mk8kGZ5ilOqyMdEcUj2GlQARcX9t8S0MUy5XNIhVKiRD6zDUFduZI6ga3+7j2OyCstyGOXMTBI5EaFNZAtuRqYe4A4G55knpOZxxIgSnhAZy3PcBrH3MMN3D+pqeSer0+NKS0mjkC5tt/aDgbxDGkfiVNVIxikQOyA20qPP2AYTd69Svx8L4YFhzbLhOlBWziBAwO9rW6X6gedrYZZplZfqXDi2xGF1Muy7ioxhaepjSPdWMWlR02J3v7MDs5lr8pr3pcjiU09OqqzSk2J62xMF2XFuMBcXlRmm4NhuQfnjaOEI5UoYJKoaXpqKGBr9CqAt8yPhjJ6Khn4gz3L/SYdIZw0502Ghd299tveO+Njs0eR6bfWVTWt5yHf5H5YsqGLOfeQWmC09XVrrURhjJYGwv1vz9tsE8vrZW4jMqqGECne/lpv8AO+CPDnDua1Uiz3jgpiN52H8X9K8z8hhmyrhbIsnkE7hqqcf7k5Fvujb43wLWqvRk9XiWPhH8lGnz0rQ+gRUjve9ypuSTe+1vPFsZ60dGUnoqmK97syWA59/6m+OGRM2p9OmN9Nug2wkfStxB4fDhokkOuslVNj9hTqb8APfgFu5NmStvH4KWJhXK81SQrT0qTyyA39VAbbWF99se57ElZUQ0shGhjpZb7EdvlbC/9FaLScN1NY1hJV1BseulBYD46vjiTP8AM/R5Dfc6b89wT2wFrktxEbQgVeZg/Mc2/wBIjNHllQ1LLTMdEb3I/tO9ufLkR2OBmS5nmtfmrkOYxKAJpXAAAH2gB1/fTbj/AFGSvPi5sY3iiN2mMQ1hb25j9jB6AUqRiOnaIAc1Vh8/PDUQZ3Attw9RwyYZVRZeUimiFQ4KM5kBIUnex87A9MHp8xpp5aYRyoYoyWNj1tYdPM4zNlAxyEHbDh1JSdhfMuJ21HSGA74XK/iOeUEAkYDzCtqlEk8oRD0Xex7X5A4F1UyUOYQapl1L6zI52YX7+44SPFZV5MJT+6rNxUxjoXzSqmAhEgB6nYYUuKq6SszaSN5zNHS3iU9Lj+K3v/DDLnnHUKUJo8lX6510tU2sE76e588INtrDlgqUPsRkXfYPUGbVwfEsPCmWREX1Qh7j/l6354FZ9QTVWZSBULJEg5dTghwXUiq4YoHiN2ii8JgOhX1fy+eC4KxRSEjS53PfEbEhzL1AKATPM+y+oy7h6rmkUKGUJa/8zAYK5BlWXcUcK5d6coWrgTw0nQeuoUlQD/MLAbH3WwD+kLN5JTHlavcKRJL/AOR+fwwV4OlaDhmjmja1nkVvvk4o+QrBk3xa0r9ZBea5XmmV5pDQQPO0krfVmItZ17gD8LYkZs8pRITUODFfWk0YuLd7gHDrS5hR5pVxLUQrJLShnjc/Z2sf19wwC4odYYpUBbVI+k6mJN+bbnDq25LpktlXBs3qDiWhc6Tz2YHt2OE3iOUS5xMVACqAoA5Da/54eiwrlCOWaq9VIuVnHLSfPsfK2M7zF9VdUG1ryt+OL7z0JzvGHyJkK4kDYgvj0NiaW5DeScQZjkbs2XzAK+7xONSMe9u/mMHKn6Q81qKfw1paSKS28gBNvYCf1wlBse6/PAGtGOkQ1sdRgMnmeSeV5ZnaSRzqZ2O5OHTg6rhHC9fFO4X0aXUAezAW+YOEXXgtlkLegyyCQguwJS9rhb2PnzOM6clwTV2cG0xvyeUtI6wMY3dCFbsbbHFfP5nmmjDblVJJ7knE3DgSVo2kOy7EdxgXmtfCZ6hUY+IrlApBB2NsJq+xG+R0A0//2Q==\",\"zf\":33,\"zl\":8,\"zi\":\"Lekkoatletka\",\"zh\":\"Maria Żodzik\",\"lm\":[],\"zp\":{\"gs_ssp\":\"eJzj4tVP1zc0LDdJK483rSw0YPTizU0sykxUOLonP6UqMxsAlCMKmQ\"}}],[\"panna młoda odcinek 133\",0,[3,143,362],{\"zf\":33,\"zl\":8,\"zp\":{\"gs_ss\":\"1\"}}],[\"steam machine\",0,[3,143,362],{\"zp\":{\"gs_ss\":\"1\"},\"zl\":8,\"zf\":33}],[\"microstrategy\",0,[3,143,362],{\"zp\":{\"gs_ss\":\"1\"},\"zf\":33,\"zl\":8}],[\"wojskowe śmigłowce nad warszawą\",0,[3,143,362],{\"zp\":{\"gs_ss\":\"1\"},\"zf\":33,\"zl\":8}]],\"1\":{\"ag\":{\"a\":{\"8\":[\"Wyszukiwania zyskujące popularność\"]}},\"av\":\"15884184954561766179\"}}"
+        }
+      ]
+    }
+  ]
+}
