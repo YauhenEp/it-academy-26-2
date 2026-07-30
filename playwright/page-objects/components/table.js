@@ -49,6 +49,23 @@ class Table extends Base {
     return this.page.locator('.orangehrm-dialog-popup .oxd-button--label-danger');
   }
 
+  // BAD PRACTICE.
+  // async clickAddButton() {
+  //   await this.clickElement(await this.addButton);
+  // }
+
+  // async deleteSession() {
+  //   await this.clickElement(await this.deleteSelectedButton);
+  // }
+
+  // async clickDeleteButton() { 
+  //   await this.clickElement(await this.deleteButton);
+  // }
+
+  // async deleteSelected() {
+  //   await this.clickElement(await this.deleteSelectedButton);
+  // }
+
   async checkCheckboxesByRowNumbers(tableRowNumbers) {
     await this.page.waitForLoadState('domcontentloaded');
     for (const rowNumber of tableRowNumbers) {

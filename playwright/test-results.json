@@ -17,7 +17,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
@@ -26,7 +26,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -69,21 +69,21 @@
   },
   "suites": [
     {
-      "title": "login.spec.js",
-      "file": "login.spec.js",
+      "title": "admin.spec.js",
+      "file": "admin.spec.js",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Login",
-          "file": "login.spec.js",
-          "line": 5,
+          "file": "admin.spec.js",
+          "line": 6,
           "column": 6,
           "specs": [
             {
-              "title": "user should be on the main page with calid creds",
-              "ok": true,
+              "title": "admin",
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -96,125 +96,58 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 8920,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 6606,
+                      "error": {
+                        "message": "TypeError: this.page.locator is not a function",
+                        "stack": "TypeError: this.page.locator is not a function\n    at AdminPage.getElement (C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js:11:26)\n    at C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\e2e\\admin.spec.js:12:38",
+                        "location": {
+                          "file": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js",
+                          "column": 26,
+                          "line": 11
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\base.js:11\n\n\u001b[0m \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m     \u001b[36masync\u001b[39m getElement(locator) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(locator)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     }\n \u001b[90m 13 |\u001b[39m }\n \u001b[90m 14 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js",
+                            "column": 26,
+                            "line": 11
+                          },
+                          "message": "TypeError: this.page.locator is not a function\n\n\u001b[90m   at \u001b[39m..\\page-objects\\base.js:11\n\n\u001b[0m \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m     \u001b[36masync\u001b[39m getElement(locator) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(locator)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     }\n \u001b[90m 13 |\u001b[39m }\n \u001b[90m 14 |\u001b[39m\u001b[0m\n\u001b[2m    at AdminPage.getElement (C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js:11:26)\u001b[22m\n\u001b[2m    at C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\e2e\\admin.spec.js:12:38\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-06T17:52:19.729Z",
+                      "startTime": "2026-07-20T18:29:33.254Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\test-results\\admin-Login-admin-chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\test-results\\admin-Login-admin-chromium\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js",
+                        "column": 26,
+                        "line": 11
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
-              "id": "badc1754af1944f68b2b-52e17224350ac8c0fe8c",
-              "file": "login.spec.js",
-              "line": 12,
-              "column": 9
-            },
-            {
-              "title": "should be error notifications when credential fields are empty",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 60000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 8051,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-07-06T17:52:19.686Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "badc1754af1944f68b2b-399363c6820f475dcf51",
-              "file": "login.spec.js",
-              "line": 18,
-              "column": 9
-            },
-            {
-              "title": "should be error notifications for password field with emptyy password",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 60000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 6492,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-07-06T17:52:19.891Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "badc1754af1944f68b2b-1bcc0649e688279f6637",
-              "file": "login.spec.js",
-              "line": 24,
-              "column": 9
-            },
-            {
-              "title": "should be error notifications for username with empty esername field",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 60000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 7351,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-07-06T17:52:19.519Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "badc1754af1944f68b2b-53c08af3c89ef86afab9",
-              "file": "login.spec.js",
-              "line": 29,
+              "id": "73482573f1568b679d78-aefd16c92de63d40b885",
+              "file": "admin.spec.js",
+              "line": 11,
               "column": 9
             }
           ]
@@ -224,11 +157,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-06T17:52:17.644Z",
-    "duration": 16887.756,
-    "expected": 4,
+    "startTime": "2026-07-20T18:29:31.976Z",
+    "duration": 13552.712000000001,
+    "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }

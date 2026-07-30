@@ -10,6 +10,10 @@ class AdminPage extends Base {
     this.leftNavigation = new LeftNavigation(page)
     this.tab = new Tab(page)
   }
+
+  get systemUserForm() {
+    return '.oxd-form-row'
+  }
 }
 
 export {AdminPage}
