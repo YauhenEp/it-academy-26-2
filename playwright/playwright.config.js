@@ -23,12 +23,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 
-  [
-    ['html'],
-    ['list'],
-    ['json', {  outputFile: 'test-results.json' }]
-  ],
+  reporter: [['html'], ['list'], ['json', { outputFile: 'test-results.json' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -40,26 +35,26 @@ export default defineConfig({
     // video: 'retain-on-failure'
     viewport: null,
     launchOptions: {
-      args: ['--start-maximized']
-    }
+      args: ['--start-maximized'],
+    },
   },
   timeout: 60000,
   expect: {
-    timeout: 5000
+    timeout: 5000,
   },
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { 
+      use: {
         ...devices['Desktop Chrome'],
       },
       expect: {
         toHaveScreenshot: {
           maxDiffPixels: 100,
-          animations : 'disabled',
+          animations: 'disabled',
           caret: 'hide',
-        }
+        },
       },
     },
 
@@ -78,7 +73,7 @@ export default defineConfig({
 
     // {
     //   name: 'webkit',
-    //   use: { 
+    //   use: {
     //     ...devices['Desktop Safari'],
     //     viewport: {width: 1060, height: 1260},
     //   },
@@ -112,4 +107,3 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
-

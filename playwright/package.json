@@ -3,16 +3,32 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky",
+    "pretty": "npx prettier --write ./**/*.js",
+    "lint": "npx eslint ./**/*.js",
+    "lint:fix": "npx eslint ./**/*.js --fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.61.1",
-    "@types/node": "^26.0.1"
+    "@types/node": "^26.0.1",
+    "eslint": "^10.8.0",
+    "globals": "^17.9.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.9.6"
   },
   "dependencies": {
     "dotenv": "^17.4.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged",
+      "pre-push": "npx playwright test"
+    }
   }
 }

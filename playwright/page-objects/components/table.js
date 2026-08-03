@@ -58,7 +58,7 @@ class Table extends Base {
   //   await this.clickElement(await this.deleteSelectedButton);
   // }
 
-  // async clickDeleteButton() { 
+  // async clickDeleteButton() {
   //   await this.clickElement(await this.deleteButton);
   // }
 
