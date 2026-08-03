@@ -8,7 +8,7 @@ on:
         - "**"
 
 jobs:
-  test:
+  test-ui:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./playwright
-        run: npm ci
+        run: npm ci --ignore-scripts
 
       - name: Install browsers
         working-directory: ./playwright
