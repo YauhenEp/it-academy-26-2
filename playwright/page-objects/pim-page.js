@@ -1,6 +1,6 @@
-import { Base } from "./base";
-import { Header } from "./components/header";
-import { LeftNavigation } from "./components/navigation";
+import { Base } from './base';
+import { Header } from './components/header';
+import { LeftNavigation } from './components/navigation';
 
 class PIMPage extends Base {
   constructor(page) {
@@ -10,4 +10,4 @@ class PIMPage extends Base {
   }
 }
 
-export { PIMPage }
+export { PIMPage };

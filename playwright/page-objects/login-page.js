@@ -1,8 +1,8 @@
-import { Base } from "./base";
+import { Base } from './base';
 
 class LoginPage extends Base {
   constructor(page) {
-    super(page)
+    super(page);
   }
 
   get usernameField() {
@@ -18,26 +18,38 @@ class LoginPage extends Base {
   }
 
   get errorNotification() {
-    return '.oxd-input-field-error-message'
+    return '.oxd-input-field-error-message';
   }
 
   get usernameErrorNotification() {
-    return `//*[@placeholder="Username"]/../following-sibling::*[contains(@class, 'oxd-input-field-error-message')]`
+    return '//*[@placeholder="Username"]/../following-sibling::*[contains(@class, \'oxd-input-field-error-message\')]';
   }
 
   get passwordErrorNotification() {
-    return `//*[@placeholder="Password"]/../following-sibling::*[contains(@class, 'oxd-input-field-error-message')]`
+    return '//*[@placeholder="Password"]/../following-sibling::*[contains(@class, \'oxd-input-field-error-message\')]';
   }
 
+  /**
+   * Fills the username and password fields
+   * @param {*} username
+   * @param {*} password
+   * @returns {Promise<void>}
+   */
   async fillCreds(username, password) {
-    if(username)  {
+    if (username) {
       await this.page.locator(this.usernameField).fill(username);
     }
-    if(password) {
+    if (password) {
       await this.page.locator(this.passwordField).fill(password);
     }
   }
 
+  /**
+   * @example
+   * @param {*} username
+   * @param {*} password
+   * @returns {Promise<void>}
+   */
   async login(username, password) {
     await this.fillCreds(username, password);
     await this.page.locator(this.loginButton).click();
@@ -63,4 +75,4 @@ class LoginPage extends Base {
   // }
 }
 
-export {LoginPage}
+export { LoginPage };
