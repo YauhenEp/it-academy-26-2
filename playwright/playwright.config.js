@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 
+const HEADLESS = process.env.HEADLESS || true;
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -31,7 +33,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
-    headless: false,
+    headless: true,
     // video: 'retain-on-failure'
     viewport: null,
     launchOptions: {

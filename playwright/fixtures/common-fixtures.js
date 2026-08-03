@@ -9,7 +9,7 @@ export const test = base.extend({
     await loginPage.navigate('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     await loginPage.login('Admin', 'admin123');
     await adminPage.leftNavigation.goToPageByName('Admin');
-    await use(adminPage);
+    await use(page);
   },
 
   loginPage: async ({ page }, use) => {
