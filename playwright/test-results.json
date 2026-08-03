@@ -83,7 +83,7 @@
           "specs": [
             {
               "title": "admin",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -96,59 +96,28 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 6606,
-                      "error": {
-                        "message": "TypeError: this.page.locator is not a function",
-                        "stack": "TypeError: this.page.locator is not a function\n    at AdminPage.getElement (C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js:11:26)\n    at C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\e2e\\admin.spec.js:12:38",
-                        "location": {
-                          "file": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js",
-                          "column": 26,
-                          "line": 11
-                        },
-                        "snippet": "\u001b[90m   at \u001b[39m..\\page-objects\\base.js:11\n\n\u001b[0m \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m     \u001b[36masync\u001b[39m getElement(locator) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(locator)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     }\n \u001b[90m 13 |\u001b[39m }\n \u001b[90m 14 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
+                      "status": "passed",
+                      "duration": 5331,
+                      "errors": [],
+                      "stdout": [
                         {
-                          "location": {
-                            "file": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js",
-                            "column": 26,
-                            "line": 11
-                          },
-                          "message": "TypeError: this.page.locator is not a function\n\n\u001b[90m   at \u001b[39m..\\page-objects\\base.js:11\n\n\u001b[0m \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m     \u001b[36masync\u001b[39m getElement(locator) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m         \u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(locator)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 12 |\u001b[39m     }\n \u001b[90m 13 |\u001b[39m }\n \u001b[90m 14 |\u001b[39m\u001b[0m\n\u001b[2m    at AdminPage.getElement (C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js:11:26)\u001b[22m\n\u001b[2m    at C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\e2e\\admin.spec.js:12:38\u001b[22m"
+                          "text": "123\n"
                         }
                       ],
-                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-20T18:29:33.254Z",
+                      "startTime": "2026-08-03T18:14:22.224Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\test-results\\admin-Login-admin-chromium\\error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\test-results\\admin-Login-admin-chromium\\trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\Yauhen_Bialetski\\WebstormProjects\\it-academy-26-2\\playwright\\page-objects\\base.js",
-                        "column": 26,
-                        "line": 11
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "73482573f1568b679d78-aefd16c92de63d40b885",
               "file": "admin.spec.js",
               "line": 11,
-              "column": 9
+              "column": 7
             }
           ]
         }
@@ -157,11 +126,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-20T18:29:31.976Z",
-    "duration": 13552.712000000001,
-    "expected": 0,
+    "startTime": "2026-08-03T18:14:20.805Z",
+    "duration": 7507.3949999999995,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
