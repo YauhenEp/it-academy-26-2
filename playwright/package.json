@@ -8,7 +8,8 @@
     "pretty": "npx prettier --write ./**/*.js",
     "lint": "npx eslint ./**/*.js",
     "lint:fix": "npx eslint ./**/*.js --fix",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "install:browsers": "npx playwright install"
   },
   "keywords": [],
   "author": "",

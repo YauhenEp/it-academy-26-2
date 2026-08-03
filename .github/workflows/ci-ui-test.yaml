@@ -21,6 +21,10 @@ jobs:
         working-directory: ./playwright
         run: npm ci
 
+      - name: Install browsers
+        working-directory: ./playwright
+        run: npm run install:browsers
+
       - name: Run tests
         working-directory: ./playwright
         run: npm test
