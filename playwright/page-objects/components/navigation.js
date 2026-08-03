@@ -6,7 +6,7 @@ class LeftNavigation extends Base {
   }
 
   get menuItems() {
-    return `//*[contains(@class, 'oxd-main-menu-item--name')]//ancestor::a`;
+    return '//*[contains(@class, \'oxd-main-menu-item--name\')]//ancestor::a';
   }
 
   get searchField() {
