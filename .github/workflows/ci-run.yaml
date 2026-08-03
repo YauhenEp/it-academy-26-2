@@ -20,6 +20,10 @@ jobs:
       - name: Install dependencies
         working-directory: ./jest
         run: npm ci
+        
+      - name: Install browsers
+        working-directory: ./playwright
+        run: npx playwright install
 
       - name: Run tests
         working-directory: ./jest
